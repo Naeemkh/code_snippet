@@ -10,14 +10,11 @@ PySide2==5.14.0
 
 """
 import sys
-import time
-import random
 
 from PySide2.QtWidgets import (QApplication, QWidget,
-                               QLineEdit, QTextEdit, QLabel, QPushButton,
-                               QFormLayout, QHBoxLayout, QVBoxLayout)
+                               QTextEdit,  QPushButton,
+                               QVBoxLayout)
 
-from PySide2.QtCore import Signal, QObject, QThread
 
 class Dashboard(QWidget):
     """
